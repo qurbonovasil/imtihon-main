@@ -1,0 +1,36 @@
+.hero{
+    background: linear-gradient(to right, white 40%,  red);
+    border-bottom-left-radius: 300%;
+    .hero_container{
+        max-width: $max-width;
+        height: 135vh;
+
+        .hero_title{
+            margin-top: 8rem;
+            font-family: $sans-serif;
+            .top_text{
+                font-size: $h5Size; 
+                color: #2278D4;
+                font-weight: 700;
+                margin-bottom: 1rem;
+            }
+            h1{
+                font-size: $h2Size;
+                width: 425px;
+                line-height: 45px;
+                padding-bottom: 2rem;
+            }
+            .bottom_text{
+                line-height: 30px;
+                color: grey;
+            }
+        }
+        .col{
+            display: $d-flex;
+            img:nth-child(2){
+                position: relative;
+                margin-left: -15rem;
+            }
+        }
+    }
+}

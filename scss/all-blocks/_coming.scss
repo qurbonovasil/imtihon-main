@@ -1,0 +1,23 @@
+.coming{
+    margin-top: 65rem;
+    background: rgb(231, 231, 231);
+    .coming_container{
+        .row{
+            .col{
+                width: 100%;
+                
+                .coming_title{
+                    h2{
+                        margin-bottom: 1rem;
+                        font-size: $h2Size;
+                        font-family: sans-serif;
+                    }
+                    p{
+                        font-family: sans-serif;
+                    }
+                }
+                width: 600px;
+            }
+        }
+    }
+}

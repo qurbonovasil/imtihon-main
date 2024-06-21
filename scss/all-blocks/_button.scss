@@ -1,0 +1,13 @@
+.learn_btn{
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    border-radius: 25px;
+    border: none;
+    background: #22A75D;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    &:hover{
+        background: #2bd377;
+    }
+}

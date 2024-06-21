@@ -1,0 +1,69 @@
+.header {
+    max-width: $max-width;
+    height: auto;
+    background: linear-gradient(to right, white 40%,   red);
+
+    .header_container {
+        display: $d-flex;
+        align-items: center;
+        justify-content: $space-between;
+
+        .header_logo {
+            .logo_link {
+                img {}
+            }
+        }
+
+        .header_second {
+            display: $d-flex;
+            align-items: center;
+            width: 620px;
+            justify-content: $space-between;
+
+            .navbar {
+                .list {
+                    width: $nav-width;
+                    display: $d-flex;
+                    justify-content: $space-between;
+                    align-items: $center;
+
+                    .list_item {
+                        color: $dark-color;
+                        font-family: $sans-serif;
+
+                        a {
+                            color: white;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+            .header_right {
+                display: $d-flex;
+                width: 145px;
+                justify-content: $space-between;
+                align-items: $center;
+                font-family: sans-serif;
+
+                a {
+                    color: white;
+                }
+
+                .signIn {
+                    text-decoration: underline;
+                }
+
+                .signUp {
+                    color: black;
+                    font-weight: 600;
+                    padding: .7rem;
+                    background: white;
+                    border-radius: 25px;
+                }
+            }
+
+        }
+
+    }
+}
